@@ -1,0 +1,56 @@
+[
+  {
+    "_id": 1,
+    "name": "next-gen 7nm Gpu",
+    "price": "30000",
+    "available": 200,
+    "minimumQuantity": 10,
+    "description": "It looks like Nvidia and AMD are gearing up to produce next-gen 7nm graphics cards,",
+    "img": "https://cdn.mos.cms.futurecdn.net/Rcrzch6WmtpTKxhYzxU2dP-1200-80.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "next-gen 7nm Gpu",
+    "price": "30000",
+    "available": 200,
+    "minimumQuantity": 10,
+    "description": "It looks like Nvidia and AMD are gearing up to produce next-gen 7nm graphics cards,",
+    "img": "https://media.istockphoto.com/photos/computer-microchips-and-processors-on-electronic-circuit-board-picture-id1141230722?k=20&m=1141230722&s=612x612&w=0&h=S1aGmA0ackjttVmxtFIxeTQjIr7iq_Ojk5o3fUd9ffg="
+  },
+  {
+    "_id": 3,
+    "name": "mobile Gpu",
+    "price": "13000",
+    "available": 220,
+    "minimumQuantity": 10,
+    "description": "Computer Microchips and Processors on Electronic circuit board. Abstract technology microelectronics concept background. Macro shot, shallow focus.",
+    "img": "https://www.androidauthority.com/wp-content/uploads/2021/03/Arm-Cortex-CPU.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "Hot computer case",
+    "price": "140000",
+    "available": 100,
+    "minimumQuantity": 10,
+    "description": "one of the best casing of gamers  ",
+    "img": "https://image.made-in-china.com/2f0j00WzuRpFSEqlgP/Hot-Computer-Cases-Gamer-Towers-ATX-CPU-Casing-PC-Case.jpg"
+  },
+  {
+    "_id": 5,
+    "name": "Armv9 heralds cpu",
+    "price": "3000",
+    "available": 200,
+    "minimumQuantity": 10,
+    "description": "UX200 ARGB Lighting CPU Cooler comes with the high air flow blades",
+    "img": "https://thermaltake.azureedge.net/pub/media/catalog/product/cache/6bf0ed99c663954fafc930039201ed07/u/x/ux20001.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "32gb Ram",
+    "price": "5000",
+    "available": 70,
+    "minimumQuantity": 10,
+    "description": "one of the best casing for gamers  ",
+    "img": "https://cdn.mos.cms.futurecdn.net/CMe2YoHNC8o9865qF5M54d-1200-80.jpg"
+  }
+]
