@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 import { auth } from "../../Firebase/Firebase.init";
 import Loading from "../Loading/Loading";
 
@@ -25,7 +26,11 @@ const MyOrders = () => {
         method: 'DELETE'
       })
         .then(res => res.json())
-        .then(data => console.log(data));
+        .then(data => {
+          if (data.acknowledged) {
+            toast.error('Delete successfully')
+          }
+        });
 
     }
   }

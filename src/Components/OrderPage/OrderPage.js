@@ -58,8 +58,6 @@ const OrderPage = ({ partsInfo, setPartsInfo }) => {
   const handleQuantity = e => {
     const newOrderQuantity = e.target.value;
     setQuantity(newOrderQuantity);
-   
-    console.log('ha ha', availableField, quantityField);
     if (quantityField < 10 || quantityField > availableField) {
       toast.error(`please our minimum quantity is 10 and maximum quantity is ${available}`)
       
