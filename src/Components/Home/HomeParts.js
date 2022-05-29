@@ -5,10 +5,10 @@ import Loading from "../Loading/Loading";
 const HomeParts = () => {
   const [parts, setParts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/allParts")
+    fetch("https://sazzad795.herokuapp.com/allParts")
       .then((res) => res.json())
       .then((data) => setParts(data));
-  });
+  },[]);
   const navigate = useNavigate();
 
   const handleOrder = () => {

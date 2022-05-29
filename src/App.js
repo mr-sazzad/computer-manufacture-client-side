@@ -20,7 +20,6 @@ import Parts from "./Components/Parts/Parts";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import RequireAdmin from "./Components/RequireAuth/RequireAdmin";
 import RequireAuth from "./Components/RequireAuth/RequireAuth";
-import Reviews from "./Components/Reviews/Reviews";
 import Nav from "./Components/Shared/Nav";
 import Summery from "./Components/Summery/Summery";
 
@@ -40,7 +39,6 @@ function App() {
           />
           <Route path="/orderPage" element={<OrderPage />} />
           <Route path="/summery" element={<Summery />} />
-          <Route path="/reviews" element={<Reviews />} />
           <Route path="/signIn" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/blogs" element={<Blogs />} />

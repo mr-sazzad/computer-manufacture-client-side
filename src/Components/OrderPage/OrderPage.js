@@ -36,7 +36,7 @@ const OrderPage = ({ partsInfo, setPartsInfo }) => {
       };
       console.log(booking);
 
-      fetch("http://localhost:5000/booking", {
+      fetch("https://sazzad795.herokuapp.com/booking", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -76,6 +76,7 @@ const OrderPage = ({ partsInfo, setPartsInfo }) => {
             ✕
           </label>
           <h3 className="font-bold text-lg text-center text-primary">{name}</h3>
+          <h3 className="font-bold text-center text-primary">Price: {price}</h3>
           <form onSubmit={handleBooking}>
             <div className="form-control w-full max-w-xs mx-auto">
               <label className="label">

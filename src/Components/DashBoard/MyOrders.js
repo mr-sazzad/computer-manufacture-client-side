@@ -11,7 +11,7 @@ const MyOrders = () => {
  
   useEffect(() => {
     if (user) {
-      fetch(`http://localhost:5000/booking?buyer=${user?.email}`)
+      fetch(`https://sazzad795.herokuapp.com/booking?buyer=${user?.email}`)
         .then((res) => res.json())
         .then((data) => setOrders(data));
     }
@@ -22,7 +22,7 @@ const MyOrders = () => {
   }
   const handleDelete = (id) => {
     if (user) {
-      fetch(`http://localhost:5000/parts/${id}`, {
+      fetch(`https://sazzad795.herokuapp.com/parts/${id}`, {
         method: 'DELETE'
       })
         .then(res => res.json())

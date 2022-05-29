@@ -19,7 +19,7 @@ const AddAProduct = () => {
     };
     console.log(part);
 
-    fetch("http://localhost:5000/addPart", {
+    fetch("https://sazzad795.herokuapp.com/addPart", {
       method: "POST",
       body: JSON.stringify(part),
       headers: {
