@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+  .details-card img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
