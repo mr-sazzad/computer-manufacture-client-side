@@ -27,7 +27,7 @@ const Portfolio = () => {
            PROJECTS
                   </p>
                   <a href="https://laptop-24af0.web.app/" target="_blank" rel="noreferrer">Laptop</a> 
-                  {/* <a href="https://laptop-24af0.web.app/" target="_blank" rel="noreferrer">Laptop</a>  */}
+                  <a href="https://computer-manufacture.web.app/parts" target="_blank" rel="noreferrer">Computer Manufacture</a> 
                   <a href="https://photography-d3c58.web.app/" target="_blank" rel="noreferrer">Photography</a> 
         </div>
       </div>

@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
-project client side ripo link [Create React App](https://github.com/facebook/create-react-app).
-project client side ripo link [Create React App](https://github.com/facebook/create-react-app).
+project client site ripo link [Client Side Ripo](https://github.com/programming-hero-web-course1/manufacturer-website-client-side-mr-sazzad).
+project Server site ripo link [Create React App](https://github.com/programming-hero-web-course1/manufacturer-website-server-side-mr-sazzad).
+project Live site link [Create React App](https://computer-manufacture.web.app/parts).
 
 ## Available pages
 
