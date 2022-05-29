@@ -2,11 +2,11 @@
 
 project client site ripo link [Client Side](https://github.com/programming-hero-web-course1/manufacturer-website-client-side-mr-sazzad).
 
-#### Server site
+## Server site
 
 project Server site ripo link [Server Side](https://github.com/programming-hero-web-course1/manufacturer-website-server-side-mr-sazzad).
 
-#### Live site
+## Live site
 
 project Live site link [Live site](https://computer-manufacture.web.app/parts).
 
